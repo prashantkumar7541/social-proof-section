@@ -1,0 +1,131 @@
+body{
+    height: 1530px;
+    width: 375px;
+    background-color: hsla(0, 4%, 84%, 0.709);
+}
+#main-box{
+    background-color: white;
+    width: fit-content;
+}
+#box1{
+    color: black;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+#div1{
+    text-align: center;
+    margin-left: 45px;
+    margin-top: -175px;
+}
+#box2,#box3,#box4{
+    width: 305px;
+    height: 175px;
+    background-color: hsl(300, 43%, 22%);
+}
+#box1 h1{
+    text-align: center;
+    color: hsl(300, 43%, 22%);
+}
+#box1 p{
+    text-align: center;
+    font-size: 15px;
+    color: hsl(300, 43%, 22%);
+}
+.box img{
+    height: 45px;
+    width: 45px;
+    border-radius: 25px;
+}
+.indiv img{
+    height: 15px;
+    width: 15px;
+}
+.indiv{
+    background-color: hsl(231, 53%, 92%);
+    color: rgb(85, 49, 49);
+    width: 300px;
+    height: 45px;
+    border: 1px solid;
+    margin: 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.box{
+    width: 300px;
+    height: 325px;
+    color: white;
+    padding: 25px;
+    margin: 15px 15px;
+    border-radius: 10px;
+}
+.i1{
+    font-style: normal;
+    color:  hsl(333, 80%, 67%);
+}
+.info{
+    margin-left: 55px;
+    margin-top: -45px;
+}
+
+/* Larger screen */
+@media (min-width:1200px) {
+    body{
+        width: 1440px;
+        height: 800px;
+    }
+    #main-box{
+        height: 650px;
+        width: 1150px;
+        margin: 45px 135px;
+        border-radius: 15px;
+    }
+    #big-box{
+        width: 1050px;
+        height: 325px;
+        display: flex;
+    }
+    #div2{
+        width: 1050px;
+        height: 325px;
+        display: flex;
+        margin-left: 45px;
+    }
+    #box1{
+        height: 205px;
+        text-align: justify;
+    }
+    #div1{
+        margin-top: 45px;
+        margin-left: 45px;
+    }
+    #h1,#p1{
+        text-align:justify;
+    }
+    .attribution{
+        width: 1000px;
+        margin-top: 350px;
+        margin-left: -875px;
+    }
+    #indiv1{
+        margin-left: 15px;
+    }
+    #indiv2{
+        margin-left: 45px;
+    }
+    #indiv3{
+        margin-left: 75px;
+    }
+    #box2{
+    margin-top: 10px;
+    }
+    #box3{
+        margin-top: 30px;
+    }
+    #box4{
+        margin-top: 50px;
+    }
+}
+
